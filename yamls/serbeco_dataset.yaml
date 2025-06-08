@@ -1,0 +1,8 @@
+# YOLOv8 dataset configuration
+path: /scratch/izar/ghorbani/serbeco  # Root directory where your dataset is stored
+train: images/train  # Training images (relative to 'path')
+val: images/val  # Validation images (relative to 'path')
+
+# Classes
+nc: 10  # Number of classes
+names: ['Metal', 'Plastic', 'Glass', 'Cardboard', 'Paper', 'Organic', 'Wood', 'e-Waste', 'Rubble', 'Fabric'] 
